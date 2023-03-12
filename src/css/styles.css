@@ -19,7 +19,7 @@ body {
   
   .wrapper {
     padding: 40px 0;
-    background-color: #dbc4ee;
+    background-color: #eeedb4;
   }
   
   .search-form {
@@ -29,28 +29,29 @@ body {
   }
   
   .search-form > button {
-    color: rgb(122, 18, 239);
-    background-color: rgb(255, 255, 255);
+    /* color: rgb(122, 18, 239); */
+    background-color: rgb(209, 209, 131);
   }
   
   .search-form > button:disabled {
     opacity: 1;
     background-color: white;
-    color: rgb(122, 18, 239);
+    /* color: rgb(122, 18, 239); */
     pointer-events: none;
   }
   
   .search-form > button:hover,
   .search-form > button:focus,
   .search-form > button:active {
-    background-color: rgb(219, 195, 254);
-    color: white;
+    background-color: white;
+    /* background-color: rgb(239, 240, 214); */
+    /* color: white; */
   }
   
   .search-form > input {
     width: 300px;
     border: none;
-    color: rgb(122, 18, 239);
+    /* color: rgb(122, 18, 239); */
   }
   
   .gallery {
